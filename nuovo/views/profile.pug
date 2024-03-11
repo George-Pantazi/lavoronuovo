@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title=title
+    link(rel='stylesheet', type='text/css', href='styles/styles.css')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+  body
+    h1.homepage PROFILI
+    .container
+      .row
+        .col-md-4.d-flex.flex-column.align-items-center
+          img(src='/styles/images/hamburger.jpeg', alt='hamburger', class ='img-fluid img-carti')
+          a.button-hamburger.btn.btn-primary(href='/hamburger')  hamburger
+        .col-md-4.d-flex.flex-column.align-items-center
+          img(src='/styles/images/pizza.jpeg', alt='pizza', class ='img-fluid img-ye')
+          a.button-pizza.btn.btn-primary(href='/pizza') pizza
+        .col-md-4.d-flex.flex-column.align-items-center
+          img(src='/styles/images/kebab.jpeg', alt='kebab', class ='img-fluid img-kebab')
+          a.button-kebab.btn.btn-primary(href='/kebab') kebab

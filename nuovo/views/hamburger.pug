@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title=title
+    link(rel='stylesheet', type='text/css', href='/styles/styles.css')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+  body
+    .container
+      h1.title Profilo di #{nome}
+      .row
+        .col-md-4
+          img(src='hamburger.jpg', alt='hamburger', class='img-fluid')
+        .col-md-8
+          h2 Nome 
+          p #{nome}
+          h2 ingredienti
+          p #{ingredienti}
+          h2 tipo
+          p #{biografia}
+          
